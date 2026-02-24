@@ -2,6 +2,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    /* 구글 시트 웹 앱 링크 여기에 넣기 */
+    const WEB_APP_URL = "https://script.google.com/macros/s/AKfycb.../exec";
+  </script>
   <style>
     /* ---------------------------------- */
     /* 🎨 기본 스타일 (데스크탑) */
@@ -384,7 +388,7 @@
       messageDiv.textContent = "제출 중입니다... 잠시만 기다려주세요.";
       messageDiv.style.color = "blue";
       
-      var webAppUrl = "https://script.google.com/macros/s/AKfycbxiTvbJC03Hx5EP4qRvw97JcBbybc1mRETsLOqqpgNQbCnF5NX0x4QVRmtXcTRzXKDNxA/exec"; 
+      const webAppUrl = WEB_APP_URL;
       
       var formData = new FormData(this); 
       
